@@ -15,5 +15,7 @@ public class User {
     private String password; // 실제로는 해시된 비밀번호를 저장해야 합니다.
     private String location;
 
+    private String oauth2Provider;
+    private String oauth2ProviderId;
     // getters, setters, constructors, and other methods...
 }
